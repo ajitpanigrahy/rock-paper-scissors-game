@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@700&family=Karla&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+}
+nav{
+    height: 15vh;
+    background-color: #FF9933;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000080;
+    font-family: 'Silkscreen', cursive;
+}
+nav span{
+    margin: 0 10px;
+}
+.container{
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    color: white;
+    color: #000080;
+}
+
+table{
+    border-color: #000080;
+    border-style: groove;
+    padding: 10px;
+}
+
+textarea{
+    border-radius: 50px;
+    padding: 10px auto;
+    margin: 5px;
+    font-family: cursive;
+    cursor: not-allowed;
+    color: #000080;
+    background-color: white;
+    border: 0;
+    font-weight: bold;
+    
+}
+
+button{
+    width: 75px;
+    margin: 3px;
+    height: 30px;
+    border-radius: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: cursive;
+    letter-spacing: 2px;
+    color: #000080;
+}
+
+button:hover{
+    font-size:medium;
+}
+
+footer{
+    height: 15vh;
+    background-color: #138808;
+    color: #000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder
+}
